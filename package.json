@@ -31,7 +31,6 @@
   },
   "scripts": {
     "format": "prettier --write --list-different ./*.js ./ReactNativeFastImageExample/src/*.js ./react-native-fast-image-server/*.js",
-    "prepare": "git submodule update --init --recursive",
     "test": "yarn run format && yarn run test:jest",
     "test:jest": "jest *.js"
   },
